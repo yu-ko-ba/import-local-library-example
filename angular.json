@@ -59,7 +59,8 @@
               "sourceMap": true
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "production",
+          "preserveSymlinks": true
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
