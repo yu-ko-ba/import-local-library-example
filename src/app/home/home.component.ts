@@ -7,11 +7,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [FormsModule, MatFormFieldModule, MatInputModule, MatButtonModule],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss',
+    selector: 'app-home',
+    imports: [FormsModule, MatFormFieldModule, MatInputModule, MatButtonModule],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.scss'
 })
 export class HomeComponent {
   constructor(private snackbar: MatSnackBar) {}
